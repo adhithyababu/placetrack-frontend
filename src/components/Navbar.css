@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 60px;
+  background: #12172B;
+  border-bottom: 1px solid #2A3150;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #E8EAF0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.brand-icon {
+  width: 28px;
+  height: 28px;
+  background: #4F8EF7;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.navbar-links a {
+  color: #9BA3BC;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0.4rem 0.875rem;
+  border-radius: 6px;
+  transition: all 0.15s;
+}
+
+.navbar-links a:hover {
+  color: #E8EAF0;
+  background: rgba(255,255,255,0.06);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-user {
+  font-size: 13px;
+  color: #9BA3BC;
+}
+
+.btn-logout {
+  padding: 0.4rem 1rem;
+  background: transparent;
+  border: 1px solid #2A3150;
+  border-radius: 6px;
+  color: #9BA3BC;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.btn-logout:hover {
+  border-color: #E24B4A;
+  color: #E24B4A;
+}
