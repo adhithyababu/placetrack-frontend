@@ -8,7 +8,7 @@ const AdminApplications = () => {
   const [applications, setApplications] = useState([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('All');
-  const [updating, setUpdating] = useState(null);
+  //const [updating, setUpdating] = useState(null);
   const [selectedApp, setSelectedApp] = useState(null);
   const [statusForm, setStatusForm] = useState({ status: '', adminNote: '' });
   const [saving, setSaving] = useState(false);
